@@ -1,0 +1,83 @@
+header{
+	background: no-repeat center center;
+	background-size: cover;
+	color: ;
+}
+
+body {
+  background-color: black;
+  color: white;
+ }
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2845, 85, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+	border: 1px solid darkgray;
+}
+
+a.nav-link{
+	color: #0275d8;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+	background-color: white;
+	color: black;
+	margin-bottom: 40px;
+}
+
+h1 {
+	color: #0275d8;
+}
+
+h2 {
+	color: #0275d8;
+}
+
+
+
+.card {
+	border: 10px;
+	padding: 2px;
+	background-color: #0275d8;
+}
+
+.card-body {
+	background-color: #000000;
+	color: white;
+}
+
+.card-title {
+	color: #0275d8;
+}
+
+.color-overlay{
+	background-color: rgb(0, 0, 0, 0.4);
+	min-height: 60vh;
+}
+
+.singleCol{
+	max-width: 750px;
+
+}
+
+footer{
+	background-color: #3a3a3a;
+	max-height: 5px;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	color: #0275d8;
+}
+
+
+@media (max-width: 768px) {
+	.color-overlay{
+		min-height: 30vh;
+	}
+}
